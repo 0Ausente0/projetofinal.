@@ -1,0 +1,84 @@
+.container{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(211, 33, 93);
+    margin: 1rem;
+    display: inline-flex;
+    margin-top: 0% ;
+}
+
+
+.informaçoes{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: inline-flex;
+    margin-left: 45rem;
+    word-spacing: 2rem;
+}
+
+.calendario{
+        text-align: center;
+    }
+
+    .datas{
+        word-spacing: 1rem;
+        text-align: center;
+        border-radius: 3rem;
+        border: 2px solid rgb(194, 194, 194);
+        width: 35%;
+        margin: 0 auto;
+}
+
+#botaosalvar{
+    border: none; 
+    border-radius: 100%;
+    background-color: rgb(211, 33, 93);
+    width: 55px;
+    height: 55px;
+    text-align: center;
+}
+
+#botaosalvar img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+#user{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 50rem;
+}
+
+input[type="date"] {
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5rem;
+    color: rgb(0, 0, 0);
+    outline: none;
+}
+
+.lugares {
+    text-align: center;
+    padding: 20px;
+}
+.imagens {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.imagem-praias {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background: white;
+    text-align: center;
+    padding: 10px;
+}
+.imagem-praias img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+.imagem-praias p {
+    margin-top: 10px;
+    font-size: 1rem;
+}
